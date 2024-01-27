@@ -72,3 +72,40 @@ button {
 img {
     width: 500px;
 }
+
+.illustration {
+    min-height: 150px;
+    min-width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin: 40px 0;
+}
+
+.rand-info-container ul{
+    font-size: 18px;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 0px;
+}
+
+.rand-info-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+    align-items: center;
+}
+
+.illustration-list li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 0;
+}
